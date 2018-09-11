@@ -18,7 +18,6 @@
 		023234A82142F7520095E447 /* PrimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023234A72142F7520095E447 /* PrimeViewController.swift */; };
 		025942372143FB490021A8FE /* EightBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025942362143FB490021A8FE /* EightBallViewController.swift */; };
 		0281FB08214557AD00CB400F /* CardFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB07214557AD00CB400F /* CardFlipViewController.swift */; };
-		0281FB0A2145865400CB400F /* TrueFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB092145865400CB400F /* TrueFalseViewController.swift */; };
 		0281FB0D2145871000CB400F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB0C2145871000CB400F /* Question.swift */; };
 		0281FB0F2145872B00CB400F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB0E2145872B00CB400F /* QuestionBank.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		023234A72142F7520095E447 /* PrimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeViewController.swift; sourceTree = "<group>"; };
 		025942362143FB490021A8FE /* EightBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallViewController.swift; sourceTree = "<group>"; };
 		0281FB07214557AD00CB400F /* CardFlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipViewController.swift; sourceTree = "<group>"; };
-		0281FB092145865400CB400F /* TrueFalseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueFalseViewController.swift; sourceTree = "<group>"; };
 		0281FB0C2145871000CB400F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0281FB0E2145872B00CB400F /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +91,6 @@
 				025942362143FB490021A8FE /* EightBallViewController.swift */,
 				023234A72142F7520095E447 /* PrimeViewController.swift */,
 				0281FB07214557AD00CB400F /* CardFlipViewController.swift */,
-				0281FB092145865400CB400F /* TrueFalseViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,7 +176,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				023234A82142F7520095E447 /* PrimeViewController.swift in Sources */,
-				0281FB0A2145865400CB400F /* TrueFalseViewController.swift in Sources */,
 				025942372143FB490021A8FE /* EightBallViewController.swift in Sources */,
 				0281FB0F2145872B00CB400F /* QuestionBank.swift in Sources */,
 				020174AE214144AB00A0A8DE /* ViewController.swift in Sources */,
