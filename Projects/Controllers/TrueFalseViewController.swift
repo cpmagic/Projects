@@ -12,7 +12,7 @@ class TrueFalseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.black
+        view.backgroundColor = UIColor.yellow
         // Do any additional setup after loading the view.
     }
 
