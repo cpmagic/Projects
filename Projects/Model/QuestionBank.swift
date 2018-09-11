@@ -17,5 +17,4 @@ class QuestionBank {
             list.append(Question(questionText: "The Sun is mostly made of carbon.", questionExplanation: "The sun is mostly composed of the elements Hydrogen (H) and Helium (He). By mass the composition of the sun is 75 percent Hydrogen and 25 percent Helium. Various metals make up less than 0.1 percent of the mass of the sun.", trueFalse: false, questionImage: "Sun"))
         }
     }
-    
 }

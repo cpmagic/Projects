@@ -4,7 +4,7 @@
 //
 //  Created by Thomas Hill on 9/9/18.
 //  Copyright © 2018 Computer Magic. All rights reserved.
-// Test og Git
+//  
 
 import Foundation
 
