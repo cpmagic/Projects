@@ -37,11 +37,11 @@ class CardFlipViewController: UIViewController {
     
     func flipCard(withEmoji emoji: String, on button: UIButton) {
         if button.currentTitle == emoji {
-            button.setTitle("", for: UIControlState.normal)
+            button.setTitle("", for: UIControl.State.normal)
             button.backgroundColor = UIColor.orange
         }
         else {
-            button.setTitle(emoji, for: UIControlState.normal)
+            button.setTitle(emoji, for: UIControl.State.normal)
             button.backgroundColor = UIColor.white
         }
     }

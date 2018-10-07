@@ -20,6 +20,8 @@
 		0281FB08214557AD00CB400F /* CardFlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB07214557AD00CB400F /* CardFlipViewController.swift */; };
 		0281FB0D2145871000CB400F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB0C2145871000CB400F /* Question.swift */; };
 		0281FB0F2145872B00CB400F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281FB0E2145872B00CB400F /* QuestionBank.swift */; };
+		02E9E8BF216A33800074A9E8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9E8BE216A33800074A9E8 /* KeyboardViewController.swift */; };
+		02E9E8C1216A35440074A9E8 /* DoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9E8C0216A35440074A9E8 /* DoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		0281FB07214557AD00CB400F /* CardFlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFlipViewController.swift; sourceTree = "<group>"; };
 		0281FB0C2145871000CB400F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0281FB0E2145872B00CB400F /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		02E9E8BE216A33800074A9E8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		02E9E8C0216A35440074A9E8 /* DoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 		025942382143FB670021A8FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				02E9E8C0216A35440074A9E8 /* DoneViewController.swift */,
+				02E9E8BE216A33800074A9E8 /* KeyboardViewController.swift */,
 				020174AD214144AB00A0A8DE /* ViewController.swift */,
 				0206285B2142B09C004AF9F6 /* LightViewController.swift */,
 				020174BF21415A1300A0A8DE /* IAmViewController.swift */,
@@ -136,6 +142,7 @@
 				TargetAttributes = {
 					020174A7214144AB00A0A8DE = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -177,7 +184,9 @@
 			files = (
 				023234A82142F7520095E447 /* PrimeViewController.swift in Sources */,
 				025942372143FB490021A8FE /* EightBallViewController.swift in Sources */,
+				02E9E8BF216A33800074A9E8 /* KeyboardViewController.swift in Sources */,
 				0281FB0F2145872B00CB400F /* QuestionBank.swift in Sources */,
+				02E9E8C1216A35440074A9E8 /* DoneViewController.swift in Sources */,
 				020174AE214144AB00A0A8DE /* ViewController.swift in Sources */,
 				0281FB08214557AD00CB400F /* CardFlipViewController.swift in Sources */,
 				0281FB0D2145871000CB400F /* Question.swift in Sources */,
@@ -337,7 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cpmagic.Projects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -355,7 +364,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cpmagic.Projects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

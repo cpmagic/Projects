@@ -31,7 +31,7 @@ class EightBallViewController: UIViewController {
         imgBall.image = UIImage(named:ballArray[ball])
     }
     
-    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         shakeIt()
     
     }

@@ -12,7 +12,7 @@ import UIKit
 class LightViewController: UIViewController {
     
     @IBOutlet weak var lblTitle: UILabel!
-    var lblText = "Light Switch"
+    var lblText = "Light "
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,12 +28,12 @@ class LightViewController: UIViewController {
         if view.backgroundColor == UIColor.black {
             view.backgroundColor = UIColor.yellow
             lblTitle.textColor = UIColor.blue
-            lblTitle.text = lblText + " " + "is On"
+            lblTitle.text = lblText + "is On"
         }
         else {
             view.backgroundColor = UIColor.black
             lblTitle.textColor = UIColor.white
-            lblTitle.text = lblText + " " + "is Off"
+            lblTitle.text = lblText + "is Off"
         }
     }
     
